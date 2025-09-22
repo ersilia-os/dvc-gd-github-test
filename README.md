@@ -39,7 +39,7 @@ You will create and push a **separate** repository named **`test_integration`** 
 - A Google account with **Google Drive**
 - Access to Ersilia's **Google Cloud Console** to enable **Google Drive API** and create an **OAuth client** (no server needed). This needs to be done only once, and it's already done! Exhaustive details on how to do it are provided below. 
 
-**One-time Google Cloud setup (for DVC ↔ Google Drive)**
+**One-time Google Cloud setup (for DVC ↔ Google Drive). Already set up**
 
 - Open Google Cloud Console and create/select a project: https://console.cloud.google.com/projectcreate (e.g. dvc-public). Set **Organisation** and **Location** to **ersilia.io**.
 - Enable the Google Drive API for that project. In the top bar, pick your project (project picker next to the Google Cloud logo). Then, go to the **Navigation Menu** --> **APIs and services** --> **Library** --> search **Google Drive API**, and **Enable**. 
@@ -117,14 +117,12 @@ git commit -m "Initialize DVC; ignore data/ and results/"
     a/ Public policy (dvc pull everyone, dvc push only selected users, see Policies).
 
         Set the folder's general access to "Anyone with the link --> Viewer". All users will be prompted to sign in with a Google account on their first dvc pull.
-
         Add selected maintainers by email as "Editor" or "Content manager"
 
 
     b/ Private policy (dvc pull only selected users, dvc push only selected users, see Policies).
 
         Set the folder's general access to "Restricted".
-
         Add only the selected user emails: "Viewer" for pull-only users, "Editor" or "Content manager" for push-capable users.
 
 
