@@ -1,6 +1,0 @@
-[core]
-    remote = gdrive
-['remote "gdrive"']
-    url = gdrive://1MYMynlRVCZvn0GMC4VMBX2h8EahSXS7A
-    gdrive_use_service_account = true
-    gdrive_service_account_json_file_path = /home/acomajuncosa/Downloads/dvc-gd-github-test-9bc06ea0d90f.json
