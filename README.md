@@ -1,4 +1,4 @@
-# dvc-gd-github-test
+# Testing DVC for Ersilia
 
 Test repository for GitHub, DVC and Google Drive integration.
 
